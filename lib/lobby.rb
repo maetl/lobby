@@ -1,0 +1,1 @@
+Dir.glob(File.dirname(File.absolute_path(__FILE__)) + '/lobby/*') { |file| require file }
